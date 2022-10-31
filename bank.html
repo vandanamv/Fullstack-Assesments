@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<head>
+  <style>  
+  fieldset   {color: blue;}
+   fieldset  {border: 7px solid black;}
+    </style>
+</head>  
+<body>
+
+<center>
+<h1><center style="color: rgb(128, 0, 94);">BANK FORM</center></h1> 
+<h2 ><center style="color:darkred; font-style: oblique;">PLEASE DONT SHARE YOUR OTP/PASSWORD WITH OTHERS</center></h2>
+<form action="action.php">
+
+  <fieldset style=" width:45%" >
+    <legend >BANK</legend>  
+  <table style="width:100%" border="10"align="padding-left"bgcolor="lightblue" ><tr>
+    <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><label for="account number"> Account Number:</label></th>
+      <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"> <input type="text" id="account number" name="account number"></th><br>
+      </tr></table><br>
+      
+      <table style="width:100%" border="10"align="padding-left"bgcolor="lightblue"><tr>
+      <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><label for="username">Username:</label></th>
+      <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><input type="text" id="username" name="username"></th></tr></table><br>
+      <table style="width:100%" border="10"align="padding-left"bgcolor="lightblue"><tr>
+      <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><label for="phone number">Phone Number:</label></th>
+        <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><input type="text" id="phone number" name="phone number"></th></tr></table><br>
+        <table style="width:100%" border="10"align="padding-left"bgcolor="lightblue"><tr>
+  <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><label for="pwd">Password:</label></th>
+  <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><input type="password" id="pwd" name="pwd"placeholder=" password"></th><tr><th></th>
+  <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><input type="password" id="pwd" name="pwd" placeholder="confrim the password"></tr></th></tr></table><br>
+  <table style="width:100%" border="10"align="padding-left"bgcolor="lightblue"><tr>
+    <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><label for="gender">Gender:</label></th>
+    <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><input type="male" id="male" name="male" placeholder="male"></th><tr><th></th>
+    <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><input type="female" id="female" name="female" placeholder="female"></tr></th></tr></table><br>
+ <table style="width:100%" border="10"align="padding-left"bgcolor="lightblue"><tr></tr>
+<th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><label for="age">age</label></th>
+    <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><input  type="number"name="age" id="age" min="10" max="200" step="1"></th>
+</tr></table><br>
+
+<table style="width:100%" border="10"align="padding-left"bgcolor="lightblue">
+ 
+<th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><label for="bank">Bank  options:</label></th>
+ <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"> <select id="bank" name="bank">
+    <option value="savings">Savings</option>
+    <option value="fd">Fixed deposit</option>
+    <option value="check">Check</option>
+    <option value="with draw money">With draw money</option>
+    <option value="bank balance">Bank balance</option>
+    <option value="credit card">Credit Card</option>
+    <option value="debit card">Debit Card</option>
+    <option value="incurence">Incurence</option>    
+</select></th></table><br>
+
+<table style="width:100%" border="10"align="padding-left"bgcolor="lightblue"><tr>
+<th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><label for="loans">Loans:</label></th>
+ <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"> <select id="loans" name="loans">
+    <option value="home">Home </option>
+    <option value="education">Education </option>
+    <option value="car">Car</option>
+    <option value="investement">Investment</option>
+    <option value="gold">Gold</option>
+      <option value="agri">agri</option>
+</select></th></table><br>
+
+<table style="width:100%" border="10"align="padding-left"bgcolor="lightblue"><tr>
+<th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><label for="email">Enter your email:</label></th>
+<th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><input type="email" id="email" name="email" placeholder="www@gmail.com"></th></tr></table><br>
+
+<table style="width:100%" border="10"align="padding-left"bgcolor="lightblue"><tr>
+<th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><label for="url">Enter an https:// URL:</label></th>
+<th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><input type="url" name="url" id="url"
+     placeholder="https://example.com"
+     pattern="https://.*" size="30"
+     required></th></tr></table><br>
+
+     <table style="width:100%" border="10"align="padding-left"bgcolor="lightblue">
+     <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><textarea id="w3review" name="w3review" rows="3" cols="50">
+      Please leave comments regarding website
+      </textarea></th></table>
+      
+    <table style="width:100%" border="10"align="padding-left"bgcolor="lightblue">
+      <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><input type="submit" value="Submit"></th><br>
+        <th style="color:rgb(16, 0, 194); width:30%; font-size:150%;"><input type="reset"   value="reset form"></th>
+        </table>
+</form>
+
+</table>
+</tr></fieldset>
+
+<b style="color: rgb(139, 0, 104); font-style: oblique;">"please keep me informed of further confirmation.”</b>
+
+<h1 style="color: blueviolet;" >  THANK U :) VISIT AGAIN. </h1>
+
+</center>
+</body>
+</html>
+
